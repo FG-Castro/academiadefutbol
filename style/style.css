@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Passion+One&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Passion+One&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap'); /* quienes */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*     background: rgb(59,59,255);
+background: linear-gradient(90deg, rgba(59,59,255,1) 0%, rgba(4,16,232,1) 19%, rgba(18,179,0,1) 35%, rgba(0,131,4,1) 65%, rgba(255,85,0,1) 85%);*/
+}
+h4{
+    font-size: 20px;
+font-family: 'Satisfy', cursive;
+display: flex ;
+
+}
+h1{
+    font-family: 'Passion One', cursive;
+    font-size: 72px;
+    color:  #0609b9 ;
+    display: flex ;
+}
+
+header{
+/* background: rgb(59,59,255);
+background: linear-gradient(90deg, rgba(59,59,255,1) 0%, rgba(4,16,232,1) 19%, rgba(18,179,0,1) 35%, rgba(0,131,4,1) 65%, rgba(255,85,0,1) 85%);  */
+background: rgb(59,59,255);
+background: linear-gradient(90deg, rgba(59,59,255,0.700717787114846) 0%, rgba(4,16,232,0.700717787114846) 19%, rgba(18,179,0,0.6979166666666667) 35%, rgba(0,131,4,0.7) 65%, rgba(255,85,0,0.7) 85%);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.img__enca{
+width: 50px;
+}
+.enca__logo{
+    display: flex;
+align-items: center;
+gap: 20px;
+}
+.inicio__menu{
+    font-family: 'Kaushan Script', cursive;
+color: black;
+text-decoration: none;
+font-weight: bold;
+display: flex;
+display: inline;
+justify-content: center;
+align-content: center;
+}
+.lista__menu{
+display: flex;
+list-style: none;
+gap: 20px; 
+align-items: center;
+}
+.menu__items a {
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cuerpo{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/cancha.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* PIE */
+.pie{
+    font-family: 'Varela Round', sans-serif;
+    background-color: #f0f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pelo{
+    background-color: none;
+}
+.pie__contacto a {
+    color: black;
+    text-decoration: none;
+}
+.pie__ubi a {
+    color: black;
+    text-decoration: none;
+}
+
+/*QUIENES SOMOS*/
+
+.quienes{
+    font-family: 'Rubik Dirt', cursive;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuerpo__quienes{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr  ;
+    grid-template-areas: 
+    " paraqui mision mision vision  "
+    " staff__img staff__img staff staff "
+    " staff__img staff__img staff staff";
+
+}
+.titulos__qui{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pelo__qui{
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.img__staff{
+    width: 600px;
+}
+.mision{
+    padding: 15px;
+    grid-area: mision;
+}
+.vision{
+    grid-area: vision;
+}
+.paraqui{
+    width: 400px;
+    height: 400px;
+    grid-area: paraqui;
+}
+.staff__img{
+    width: 100%;
+    height: 100%;
+    grid-area: staff__img;
+}
+.staff{
+    grid-area: staff;
+}
+
+/*CATEGORIAS*/
+
+.cat__titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Dirt', cursive;
+    padding: 10px;
+}
+.cat__tex{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+.tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.botoncat__texto{
+    width: 100%;
+}
+.tabla__boton{
+    border-radius: 100px;
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    padding: 5px;
+}
+.tabla__enlace{
+    color: black;
+    text-decoration: none;
+}
+.principal__cat{
+    margin :20px
+    }
+
+.cat__2008, .cat__2009,.cat__2010,.cat__2011,.cat__2012,.cat__2013,.cat__2014 {
+    width:100%;
+    height: 85%;   
+border-radius: 15px;
+display: flex;
+display: inline-flex;
+justify-content: center;
+padding: 10px;
+}
+.imagen__2008, .imagen__2009, .imagen__2010, .imagen__2011, .imagen__2012, .imagen__2013, .imagen__2014{
+    width: 100%;
+    height: 300px; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 2.5px;}
+
+    .cat__texto{
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    }
+
+    /*JARDIN*/
+    .jardin__titulo{
+        display: flex;
+        justify-content: center;
+        font-family: 'Rubik Dirt', cursive;
+        padding: 10px;
+    }
+
+.jar__cuerpo{
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "jar__img1 jar__tex"
+    " jar__video jar__video "
+    "jar__img2  jar__tex1";
+    
+}
+.img__extensiones{
+    width: 600px;
+    border-radius: 15px;
+}
+
+.jar__img1{
+    grid-area:jar__img1 ;
+}
+.jar__img2{
+    grid-area:jar__img2 ;
+}
+.jar__tex{
+    padding: 20px;
+    grid-area: jar__tex;
+}
+.jar__video{
+    grid-area:jar__video ;
+}
+.jar__tex1{
+    padding: 20px;
+    grid-area: jar__tex1;
+}
+/*HORARIOS*/
+
+.dias__titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Dirt', cursive;
+    padding: 10px;
+}
+.hor__cuerpo{
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr  ;
+    grid-template-areas: 
+    "hor__img hor__tex"
+    " hor__subt hor__tab ";
+}
+.hor__img{
+    grid-area: hor__img;
+}
+.hor__tex{
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    grid-area: hor__tex;
+}
+.hor__subt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-style: black;
+    padding: 10px;
+    font-size: 15spx;
+    grid-area: hor__subt;
+}
+.hor__imgcal{
+    background: none;
+    width: 150px;
+}
+.hor__tab{
+    grid-area: hor__tab;
+}
+.hor__tab{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "hor__tabcat   hor__hor"
+    " cat__num14      cat__hor14 "
+    " cat__num13      cat__hor13 "
+    " cat__num12      cat__hor12 "
+    " cat__num11      cat__hor11 "
+    " cat__num10      cat__hor10 "
+    " cat__num9      cat__hor9 "
+    " cat__num8      cat__hor8 ";
+}
+.hor__tabcat{
+    grid-area: hor__tabcat;
+}
+.hor__hor{
+    grid-area: hor__hor;
+}
+.cat__num14{
+    grid-area: cat__num14;
+}
+.cat__hor14{
+    grid-area: cat__hor14;
+}
+.cat__num13{
+    grid-area: cat__num13;
+}
+.cat__hor13{
+    grid-area: cat__hor13;
+}
+.cat__num12{
+    grid-area: cat__num12;
+}
+.cat__hor12{
+    grid-area: cat__hor12;
+}
+.cat__num11{
+    grid-area: cat__num11;
+}
+.cat__hor11{
+    grid-area: cat__hor11;
+}
+.cat__num10{
+    grid-area: cat__num10;
+}
+.cat__hor10{
+    grid-area: cat__hor10;
+}
+.cat__num9{
+    grid-area: cat__num9;
+}
+.cat__hor9{
+    grid-area: cat__hor9;
+}
+.cat__num8{
+    grid-area: cat__num8;
+}
+.cat__hor8{
+    grid-area: cat__hor8;
+}
+
+/*CONTACTO*/
+
+.contacto__titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Dirt', cursive;
+    padding: 10px;
+}
+
+.con__cuerpo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows:  1fr 1fr 1fr ;
+    grid-template-areas: 
+    "con__wha   con__tex"
+    " con__insta      con__mail "
+    " con__ubi  con__mail";
+}
+.logo_con{
+    width: 40px;
+    height: 40px;
+}
+.con__mail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    grid-area: con__mail;
+}
+.con__wha{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    grid-area: con__wha;
+}
+.con__tex{
+    grid-area: con__tex;
+}
+.con__insta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    grid-area: con__insta;
+}
+.con__ubi{
+    grid-area: con__ubi;
+}
+.enlaces_con{
+    color: black;
+    text-decoration: none;
+}
+.ubi__tit{
+    display: flex;
+    justify-content: center;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and ( max-width: 480px){
+
+    /*INDEX*/
+
+    header{
+    width: 100%;
+    flex-direction: column;
+}
+.lista__menu{ 
+    gap: 5px;
+}
+h1{
+    font-size:50px;
+}
+h4{
+    font-size: 13px ; 
+}
+.pie{
+    flex-direction: column;
+}
+
+/*QUIENES SOMOS*/
+
+.cuerpo__quienes{
+    margin: 0;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "mision"
+    "paraqui "
+    "vision"
+    " staff__img "
+    " staff";
+    align-items: center;
+}
+
+.img__staff{
+    width: 100%;
+}
+.mision{
+    height: 200px;
+}
+.paraqui{
+    width: 100%;
+}
+
+/*CATEGORIAS*/
+.tabla{
+    flex-wrap: wrap;
+}
+.cat__titulo{
+    margin-left: 35px;
+}
+.imagen__2008, .imagen__2009, .imagen__2010, .imagen__2011, .imagen__2012, .imagen__2013, .imagen__2014{
+    height: 200px;
+}
+.cat__texto{
+    font-size: 12px;
+}
+
+/*JARDIN*/
+.jardin{
+    width: 100%;
+}
+.jardin__titulo{
+    font-size: 40px;
+}
+.jar__cuerpo{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "jar__img1"
+    "jar__tex"
+    "jar__video"
+    "jar__img2"
+    "jar__tex1";
+}
+.jar__img1{
+    width: 80%;
+    padding: 10px;
+    margin: 20px;
+}
+.jar__video{
+    width: 100%;
+}
+
+/*HORARIOS*/
+
+.hor__cuerpo{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "hor__tex"
+    "hor__img"
+    "hor__subt"
+    "hor__tab";
+    align-items: center;
+}
+.hor__img{
+    width: 70%;
+}
+.hor__tex{
+    padding: 25px;
+}
+
+/*CONTACTO*/
+
+.con__cuerpo{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "con__tex"
+    "con__wha"
+    "con__insta"
+    "con__mail"
+    "con__ubi";
+    align-items: center;
+}
+}   
