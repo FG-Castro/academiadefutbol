@@ -68,9 +68,16 @@ justify-content: center;
 align-content: center;
 }
 
-.inicio__menu:hover{
-    transform: scale(1.2);
+.enca__logo a:hover{
+    transform: translateY(-2px);
 }
+.enca__logo a {
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+      }
 
 .lista__menu{
     animation:scale-in-ver-top .5s cubic-bezier(.25,.46,.45,.94) both;
@@ -86,8 +93,13 @@ align-items: center;
     text-decoration: none;
     font-weight: bold;
 }
-.menu__items:hover{
-    transform: scale(1.2);}
+.menu__items {
+    transition: transform 0.2s ease;
+      }
+
+      .menu__items:hover {
+        transform: translateY(-2px);
+      }
 
 .cuerpo{
     width: 100%;
