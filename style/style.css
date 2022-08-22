@@ -5,6 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap'); /* quienes */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel:wght@700&family=Staatliches&display=swap');
+
 
 *{
     margin: 0;
@@ -134,11 +136,13 @@ align-items: center;
 /*QUIENES SOMOS*/
 
 .quienes{
-    font-family: 'Rubik Dirt', cursive;
+    /*font-family: 'Rubik Dirt', cursive;*/
+    font-family: 'Staatliches', cursive;
     display: flex;
     justify-content: space-around;
     animation:scale-up-center .6s ease-out both;
     animation-delay: 1ms;
+    letter-spacing: 2px;
 }
 
 .cuerpo__quienes{
@@ -181,7 +185,9 @@ align-items: center;
 }
 .img__staff:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    transform: scale(1.1);}
+    transform: scale(1.1);
+background-color: #0609b9;
+}
 .mision{
     animation:focus-in-expand 1s cubic-bezier(.25,.46,.45,.94) 1 both;
     animation-delay: 2s;
@@ -225,7 +231,8 @@ justify-content: center;
     animation:scale-up-center .6s ease-out both;
     display: flex;
     justify-content: center;
-    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
     padding: 10px;
 
 }
@@ -305,7 +312,8 @@ animation-delay: 1s;
     .jardin__titulo{
         display: flex;
         justify-content: center;
-        font-family: 'Rubik Dirt', cursive;
+        font-family: 'Staatliches', cursive;
+        letter-spacing: 2px;
         padding: 10px;
         animation:scale-up-center .6s ease-out both;
     }
@@ -327,25 +335,29 @@ animation-delay: 1s;
 .img__extensiones{
     width: 100%;
     height: 100%;
+    padding: 13px;
+    background-color: #ff5500;
 }
 
 .jar__img1{
-    padding: 13px;
-    background-color: #ff5500;
     width: 500px;
     height: 400px;
     grid-area:jar__img1 ;
     -webkit-animation:slide-in-left 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left 1s cubic-bezier(.25,.46,.45,.94) both;
 }
+.img__extensiones:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #0609b9;
+    transform: scale(1.1);
+}
 .jar__img2{
-    padding: 13px;
-    background-color: #ff5500;
     width: 500px;
     height: 400px;
     grid-area:jar__img2 ;
     -webkit-animation:slide-in-left 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left 1s cubic-bezier(.25,.46,.45,.94) both;
     animation-delay: 2s;
 }
+
 .jar__tex{
     animation:focus-in-expand 1s cubic-bezier(.25,.46,.45,.94) 1 both;
     font-family: 'Raleway', sans-serif;
@@ -370,7 +382,8 @@ animation-delay: 1s;
 .dias__titulo{
     display: flex;
     justify-content: center;
-    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
     padding: 10px;
     animation:scale-up-center .6s ease-out both;
 }
@@ -388,18 +401,20 @@ animation-delay: 1s;
 }
 .hor__img{
     grid-area: hor__img;
-    padding: 13px;
-    background-color: #ff5500;
     width: 500px;
     height: 400px;
+    -webkit-animation:slide-in-left 1s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left 1s cubic-bezier(.25,.46,.45,.94) both;
 }
-.hor__img:hover{
+.img__horario:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transform: scale(1.1);
+    background-color: #0609b9;
 }
 .img__horario{
     width: 100%;
     height: 100%;
+    padding: 13px;
+    background-color: #ff5500;
 }
 .hor__tex{
     font-family: 'Raleway', sans-serif;
@@ -502,7 +517,8 @@ animation-delay: 1s;
 .contacto__titulo{
     display: flex;
     justify-content: center;
-    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
     padding: 10px;
     animation:scale-up-center .6s ease-out both;
 }
