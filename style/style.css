@@ -77,7 +77,7 @@ align-content: center;
     text-decoration: none;
     font-weight: bold;
     transition: transform 0.2s ease;
-      }
+    }
 
 .lista__menu{
     animation:scale-in-ver-top .5s cubic-bezier(.25,.46,.45,.94) both;
