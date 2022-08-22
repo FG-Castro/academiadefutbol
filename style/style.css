@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 /*     background: rgb(59,59,255);
 background: linear-gradient(90deg, rgba(59,59,255,1) 0%, rgba(4,16,232,1) 19%, rgba(18,179,0,1) 35%, rgba(0,131,4,1) 65%, rgba(255,85,0,1) 85%);*/
 }
@@ -28,6 +29,7 @@ h1{
     display: flex ;
 }
 
+
 header{
 /* background: rgb(59,59,255);
 background: linear-gradient(90deg, rgba(59,59,255,1) 0%, rgba(4,16,232,1) 19%, rgba(18,179,0,1) 35%, rgba(0,131,4,1) 65%, rgba(255,85,0,1) 85%);  */
@@ -38,6 +40,7 @@ background: linear-gradient(90deg, rgba(59,59,255,0.700717787114846) 0%, rgba(4,
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 .encabezado{
     animation:scale-up-center .6s ease-out both;
