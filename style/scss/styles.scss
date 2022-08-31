@@ -90,7 +90,7 @@ header {
 .cuerpo {
   width: 100%;
   height: 88vh;
-  background-image: url(./imagenes/cancha.jpeg);
+  background-image: url(../../imagenes/cancha.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -135,7 +135,7 @@ footer {
         rgba(0, 189, 41, 0.247) 57%,
         rgba(26, 49, 219, 0.224) 100%
       ),
-      url(./imagenes/footer.jpeg);
+      url(../../imagenes/footer.jpeg);
     background-blend-mode: normal;
     background-repeat: no-repeat;
     background-position: center center;
