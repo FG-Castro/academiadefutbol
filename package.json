@@ -1,0 +1,24 @@
+{
+  "name": "academia-de-futbol",
+  "version": "1.0.0",
+  "description": "aplicando sass",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "node-sass --include-path scss style/scss/styles.scss  style/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Febemacode/academiadefutbol.git"
+  },
+  "author": "febemacode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Febemacode/academiadefutbol/issues"
+  },
+  "homepage": "https://github.com/Febemacode/academiadefutbol#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
