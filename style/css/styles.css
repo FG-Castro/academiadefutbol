@@ -11,6 +11,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap");
+/*PIE*/
 * {
   margin: 0;
   padding: 0;
@@ -149,10 +150,11 @@ footer {
         z-index: 1;
         color: white; }
   footer .colum2 {
-    padding-top: 3rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; }
+    justify-content: space-around;
+    padding-bottom: 1rem; }
     footer .colum2 .pie__titubi {
       z-index: 1;
       color: white; }
@@ -213,7 +215,15 @@ footer {
           color: white;
           text-decoration: none; }
           footer .colum2 .pie__contacto .f__c2 a i:hover {
-            transform: scale(1.2); }
+            transform: scale(1.2) !important; }
+        footer .colum2 .pie__contacto .f__c2 .bi-wh {
+          background-color: green; }
+        footer .colum2 .pie__contacto .f__c2 .bi-ins {
+          background-color: #ff4800; }
+        footer .colum2 .pie__contacto .f__c2 .bi-mail {
+          background-color: blue; }
+        footer .colum2 .pie__contacto .f__c2 .bi-fondo {
+          background-color: #d7e9f7; }
 
 @keyframes scale-in-bottom {
   0% {
@@ -319,7 +329,7 @@ footer {
     border-radius: 20px; }
     .cuerpo__hor .card:hover {
       z-index: 1;
-      transform: scale(1.3); }
+      transform: scale(1.1) !important; }
     .cuerpo__hor .card .card-img-top {
       height: 100%; }
     .cuerpo__hor .card a {
@@ -328,22 +338,25 @@ footer {
       padding: 0;
       height: 70%; }
     .cuerpo__hor .card .card-body .card-text {
-      display: flex;
-      color: black;
-      font-family: "Bebas Neue", cursive;
       align-items: center;
       justify-content: center;
       text-align: center;
+      display: flex;
+      color: black;
+      font-family: "Bebas Neue", cursive;
       font-size: 1.3rem; }
-    .cuerpo__hor .card .card-body .cat__tees {
+    .cuerpo__hor .card .card-body .cat__tees, .cuerpo__hor .card .card-body .cat__tees1 {
       display: flex;
-      color: black;
-      font-family: "Bebas Neue", cursive;
       align-items: center;
       justify-content: center;
       text-align: center;
+      color: black;
+      font-family: "Bebas Neue", cursive;
       font-size: 1.3rem;
       font-family: "Bangers", cursive; }
+    .cuerpo__hor .card .card-body .cat__tees1 {
+      font-size: 1.6rem;
+      color: aqua; }
   .cuerpo__hor .card:nth-child(1) {
     animation-delay: 0.3s; }
   .cuerpo__hor .card:nth-child(2) {
