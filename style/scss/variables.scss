@@ -1,0 +1,12 @@
+/*PIE*/
+$redes: (
+  wh: green,
+  ins: #ff4800,
+  mail: blue,
+  fondo: #d7e9f7,
+);
+@mixin flex-text($align, $justify, $text) {
+  align-items: $align;
+  justify-content: $justify;
+  text-align: $text;
+}

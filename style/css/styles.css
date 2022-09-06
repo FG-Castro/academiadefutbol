@@ -118,7 +118,7 @@ footer {
     justify-content: space-around;
     box-shadow: 3px 0px 50px #9e9c9c; }
     footer .pie .colum1 {
-      padding-bottom: 4rem;
+      padding-bottom: 3rem;
       display: flex;
       flex-direction: column;
       justify-content: space-around; }
@@ -143,7 +143,8 @@ footer {
           font-family: "Bangers", cursive;
           letter-spacing: 2px;
           font-size: 45px;
-          font-weight: bold; }
+          font-weight: bold;
+          letter-spacing: 3px; }
       footer .pie .colum1 .pelo__p p {
         z-index: 1;
         color: white; }
@@ -200,7 +201,7 @@ footer {
         color: white;
         text-decoration: none; }
       footer .colum2 .pie__contacto .f__c1 {
-        font-size: 25px;
+        font-size: 30px;
         color: white;
         font-family: "Bebas Neue", cursive; }
       footer .colum2 .pie__contacto .f__c2 {
@@ -211,7 +212,7 @@ footer {
         footer .colum2 .pie__contacto .f__c2 a i {
           color: white;
           text-decoration: none; }
-          footer .colum2 .pie__contacto .f__c2 a i i:hover {
+          footer .colum2 .pie__contacto .f__c2 a i:hover {
             transform: scale(1.2); }
 
 @keyframes scale-in-bottom {
@@ -234,10 +235,10 @@ footer {
   margin-top: 0; }
   .cuerpo__quienes .parte1__qui {
     animation: rotate-in-tl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
-    .cuerpo__quienes .parte1__qui .accordion-item h2 {
-      font-family: "Varela Round", sans-serif;
+    .cuerpo__quienes .parte1__qui .accordion-item .accordion-button {
+      font-family: "Bangers", cursive;
       color: black;
-      font-weight: bold; }
+      font-size: 1.5rem; }
     .cuerpo__quienes .parte1__qui .accordion-body {
       font-family: "Yanone Kaffeesatz", sans-serif;
       font-size: 1.2rem; }
@@ -312,6 +313,9 @@ footer {
   gap: 1.5rem; }
   .cuerpo__hor .card {
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    animation: rotate-vert-right 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) both;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px; }
     .cuerpo__hor .card:hover {
       z-index: 1;
@@ -340,6 +344,24 @@ footer {
       text-align: center;
       font-size: 1.3rem;
       font-family: "Bangers", cursive; }
+  .cuerpo__hor .card:nth-child(1) {
+    animation-delay: 0.3s; }
+  .cuerpo__hor .card:nth-child(2) {
+    animation-delay: 0.6s; }
+  .cuerpo__hor .card:nth-child(3) {
+    animation-delay: 0.9s; }
+  .cuerpo__hor .card:nth-child(4) {
+    animation-delay: 1.2s; }
+  .cuerpo__hor .card:nth-child(5) {
+    animation-delay: 1.5s; }
+
+@keyframes rotate-vert-right {
+  0% {
+    transform: rotateY(0);
+    transform-origin: right; }
+  100% {
+    transform: rotateY(-360deg);
+    transform-origin: right; } }
 
 @keyframes tilt-in-fwd-tl {
   0% {
