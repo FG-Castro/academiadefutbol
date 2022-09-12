@@ -114,7 +114,7 @@ footer {
     align-items: center;
     width: 100%;
     height: 300px;
-    /*     position: relative; */
+    position: relative;
     border-radius: 10px;
     justify-content: space-around;
     box-shadow: 3px 0px 50px #9e9c9c; }
@@ -125,16 +125,14 @@ footer {
       justify-content: space-around; }
       footer .pie .colum1 .img__pelo {
         background-color: none;
-        /*         animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-          both; */ }
+        animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
       footer .pie .colum1 .pie__prof {
         padding-top: 2rem;
         z-index: 1;
         color: white;
         text-decoration: none;
-        /*         animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-          both;
-        animation-delay: 0.8s; */ }
+        animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+        animation-delay: 0.8s; }
       footer .pie .colum1 .pelo__tit {
         z-index: 1;
         color: white;
@@ -165,14 +163,11 @@ footer {
     footer .colum2 .pie__ubi {
       z-index: 1;
       color: white;
-      /*       animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-      animation-delay: 0.8s; */
-      /*&:hover {
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-        transform: scale(1.3);
-      }*/ }
+      animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation-delay: 0.8s; }
+      footer .colum2 .pie__ubi:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        transform: scale(1.3); }
       footer .colum2 .pie__ubi a {
         color: white;
         text-decoration: none; }
@@ -187,15 +182,14 @@ footer {
         justify-content: center;
         width: 150px;
         height: 100px;
-        /*         animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-          both; */ }
+        animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
     footer .colum2 .pie__contacto {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       padding-top: 10px;
-      /*       animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-      animation-delay: 0.8s; */ }
+      animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation-delay: 0.8s; }
       footer .colum2 .pie__contacto p {
         font-family: "Bangers", cursive;
         letter-spacing: 2px; }
@@ -217,13 +211,21 @@ footer {
           footer .colum2 .pie__contacto .f__c2 a i:hover {
             transform: scale(1.2) !important; }
         footer .colum2 .pie__contacto .f__c2 .bi-wh {
-          background-color: green; }
+          background-color: #38fa4165;
+          aspect-ratio: 1;
+          border-radius: 50%; }
         footer .colum2 .pie__contacto .f__c2 .bi-ins {
-          background-color: #ff4800; }
+          background-color: #ec3ba860;
+          aspect-ratio: 1;
+          border-radius: 50%; }
         footer .colum2 .pie__contacto .f__c2 .bi-mail {
-          background-color: blue; }
+          background-color: #5353ff5d;
+          aspect-ratio: 1;
+          border-radius: 50%; }
         footer .colum2 .pie__contacto .f__c2 .bi-fondo {
-          background-color: #d7e9f7; }
+          background-color: #d7e9f7;
+          aspect-ratio: 1;
+          border-radius: 50%; }
 
 @keyframes scale-in-bottom {
   0% {
@@ -329,7 +331,8 @@ footer {
     border-radius: 20px; }
     .cuerpo__hor .card:hover {
       z-index: 1;
-      transform: scale(1.1) !important; }
+      transform: scale(1.2) !important;
+      transition: 1s; }
     .cuerpo__hor .card .card-img-top {
       height: 100%; }
     .cuerpo__hor .card a {
@@ -351,12 +354,11 @@ footer {
       justify-content: center;
       text-align: center;
       color: black;
-      font-family: "Bebas Neue", cursive;
       font-size: 1.3rem;
       font-family: "Bangers", cursive; }
     .cuerpo__hor .card .card-body .cat__tees1 {
-      font-size: 1.6rem;
-      color: aqua; }
+      font-size: 1.3rem;
+      color: black; }
   .cuerpo__hor .card:nth-child(1) {
     animation-delay: 0.3s; }
   .cuerpo__hor .card:nth-child(2) {
@@ -454,6 +456,10 @@ footer {
       margin-left: 20px;
       margin-top: 2rem;
       width: 90%; } }
+
+/*CATEGORIAS*/
+.text__cate {
+  padding-block: 1.5rem; }
 
 /*ANIMISTA*/
 @keyframes scale-in-center {

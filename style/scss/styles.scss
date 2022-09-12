@@ -145,7 +145,7 @@ footer {
     align-items: center;
     width: 100%;
     height: 300px;
-    /*     position: relative; */
+    position: relative;
     border-radius: 10px;
     justify-content: space-around;
     box-shadow: 3px 0px 50px rgb(158, 156, 156);
@@ -156,17 +156,17 @@ footer {
       justify-content: space-around;
       .img__pelo {
         background-color: none;
-        /*         animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-          both; */
+        animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+          both;
       }
       .pie__prof {
         padding-top: 2rem;
         z-index: 1;
         color: white;
         text-decoration: none;
-        /*         animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+        animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
           both;
-        animation-delay: 0.8s; */
+        animation-delay: 0.8s;
       }
       .pelo__tit {
         z-index: 1;
@@ -208,14 +208,14 @@ footer {
     .pie__ubi {
       z-index: 1;
       color: white;
-      /*       animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-      animation-delay: 0.8s; */
-      /*&:hover {
+      animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation-delay: 0.8s;
+      &:hover {
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
           rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
           rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         transform: scale(1.3);
-      }*/
+      }
       a {
         color: white;
         text-decoration: none;
@@ -233,8 +233,8 @@ footer {
         justify-content: center;
         width: 150px;
         height: 100px;
-        /*         animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-          both; */
+        animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+          both;
       }
     }
     .pie__contacto {
@@ -242,8 +242,8 @@ footer {
       flex-direction: row;
       justify-content: space-between;
       padding-top: 10px;
-      /*       animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-      animation-delay: 0.8s; */
+      animation: scale-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation-delay: 0.8s;
       p {
         font-family: "Bangers", cursive;
         letter-spacing: 2px;
@@ -274,6 +274,8 @@ footer {
         @each $red, $color in $redes {
           .bi-#{$red} {
             background-color: $color;
+            aspect-ratio: 1;
+            border-radius: 50%;
           }
         }
       }
@@ -420,7 +422,8 @@ footer {
     border-radius: 20px;
     &:hover {
       z-index: 1;
-      transform: scale(1.1) !important;
+      transform: scale(1.2) !important;
+      transition: 1s;
     }
     .card-img-top {
       height: 100%;
@@ -443,14 +446,13 @@ footer {
         display: flex;
         @include flex-text(center, center, center);
         color: black;
-        font-family: "Bebas Neue", cursive;
         font-size: 1.3rem;
         font-family: "Bangers", cursive;
       }
       .cat__tees1 {
         @extend .cat__tees;
-        font-size: 1.6rem;
-        color: aqua;
+        font-size: 1.3rem;
+        color: black;
       }
     }
   }
@@ -576,6 +578,11 @@ footer {
       width: 90%;
     }
   }
+}
+
+/*CATEGORIAS*/
+.text__cate {
+  padding-block: 1.5rem;
 }
 
 /*ANIMISTA*/
