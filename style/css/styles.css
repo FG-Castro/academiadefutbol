@@ -57,6 +57,9 @@ header {
     transition: 1s;
     animation: scale-up-center 0.6s ease-out both;
     animation: scale-in-ver-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+    header .navbar-nav .nav-item.active a {
+      text-decoration: underline;
+      color: black; }
     header .navbar-nav .nav-item a {
       font-family: "Ravi Prakash", cursive;
       font-size: 1.4rem;
@@ -201,31 +204,65 @@ footer {
         color: white;
         font-family: "Bebas Neue", cursive; }
       footer .colum2 .pie__contacto .f__c2 {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        font-size: 20px;
+        color: white;
+        letter-spacing: 2px;
+        font-weight: normal;
+        font-size: 20px;
+        color: white;
+        letter-spacing: 2px;
+        font-weight: normal;
+        font-size: 20px;
+        color: white;
+        letter-spacing: 2px;
+        font-weight: normal;
         font-size: 20px;
         color: white;
         letter-spacing: 2px;
         font-weight: normal; }
-        footer .colum2 .pie__contacto .f__c2 a i {
-          color: white;
-          text-decoration: none; }
-          footer .colum2 .pie__contacto .f__c2 a i:hover {
-            transform: scale(1.2) !important; }
         footer .colum2 .pie__contacto .f__c2 .bi-wh {
           background-color: #38fa4165;
-          aspect-ratio: 1;
+          width: 40px;
+          height: 40px;
           border-radius: 50%; }
+        footer .colum2 .pie__contacto .f__c2 a i {
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
         footer .colum2 .pie__contacto .f__c2 .bi-ins {
           background-color: #ec3ba860;
-          aspect-ratio: 1;
+          width: 40px;
+          height: 40px;
           border-radius: 50%; }
+        footer .colum2 .pie__contacto .f__c2 a i {
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
         footer .colum2 .pie__contacto .f__c2 .bi-mail {
           background-color: #5353ff5d;
-          aspect-ratio: 1;
+          width: 40px;
+          height: 40px;
           border-radius: 50%; }
+        footer .colum2 .pie__contacto .f__c2 a i {
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
         footer .colum2 .pie__contacto .f__c2 .bi-fondo {
           background-color: #d7e9f7;
-          aspect-ratio: 1;
+          width: 40px;
+          height: 40px;
           border-radius: 50%; }
+        footer .colum2 .pie__contacto .f__c2 a i {
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
 
 @keyframes scale-in-bottom {
   0% {
@@ -416,6 +453,66 @@ footer {
   header {
     width: 100%;
     flex-direction: column; }
+  .sub__ensubtit .donde__index {
+    text-align: center;
+    font-size: 30px; }
+  h1 {
+    font-size: 50px;
+    text-align: center; }
+  h2 {
+    font-size: 30px;
+    text-align: center; }
+  h4 {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+  footer {
+    width: 100%;
+    height: 100%;
+    padding: 5px; }
+    footer .pie {
+      text-align: center;
+      font-family: "Varela Round", sans-serif;
+      background: rgba(244, 88, 21, 0.4);
+      background: linear-gradient(90deg, rgba(245, 101, 39, 0.26) 19%, rgba(0, 189, 41, 0.247) 57%, rgba(26, 49, 219, 0.224) 100%), url(/imagenes/footer.jpeg);
+      background-blend-mode: normal;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 10px;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      border-radius: 10px;
+      justify-content: space-around;
+      box-shadow: 3px 0px 50px #9e9c9c; }
+      footer .pie .colum1 .pelo__tit h2 {
+        font-size: 30px; }
+      footer .pie .colum2 {
+        padding-top: 0px; }
+        footer .pie .colum2 .pie__contacto {
+          display: flex;
+          flex-direction: column; }
+          footer .pie .colum2 .pie__contacto .f__c1 p {
+            margin-bottom: 0; }
+        footer .pie .colum2 .pie__titubi p {
+          margin-top: 24px; }
+  /*CATEGORIAS*/
+  .text__cate {
+    padding-block: 1.5rem; } }
+
+@media screen and (max-width: 768px) {
+  /*INDEX*/
+  header {
+    width: 100%;
+    flex-direction: column; }
+  .sub__ensubtit .donde__index {
+    text-align: center;
+    font-size: 30px; }
   h1 {
     font-size: 50px;
     text-align: center; }
@@ -447,19 +544,116 @@ footer {
       border-radius: 10px;
       justify-content: space-around;
       box-shadow: 3px 0px 50px #9e9c9c; }
-  /*QUIENES SOMOS*/
-  .col-md-6 {
-    width: 100%;
-    margin-left: 0px; }
-    .col-md-6 .img__staff {
-      display: flex;
-      margin-left: 20px;
-      margin-top: 2rem;
-      width: 90%; } }
+      footer .pie .colum2 .pie__contacto {
+        display: flex;
+        flex-direction: column; }
+        footer .pie .colum2 .pie__contacto .f__c1 p {
+          margin-bottom: 0; }
+      footer .pie .colum2 .pie__titubi p {
+        margin-top: 24px; }
+  /*CATEGORIAS*/
+  .text__cate {
+    padding-block: 1.5rem; } }
 
-/*CATEGORIAS*/
-.text__cate {
-  padding-block: 1.5rem; }
+@media screen and (max-width: 960px) {
+  /*INDEX*/
+  header {
+    width: 100%;
+    flex-direction: column; }
+  .sub__ensubtit .donde__index {
+    text-align: center;
+    font-size: 30px; }
+  h1 {
+    font-size: 50px;
+    text-align: center; }
+  h4 {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+  footer {
+    width: 100%;
+    height: 100%;
+    padding: 5px; }
+    footer .pie {
+      text-align: center;
+      font-family: "Varela Round", sans-serif;
+      background: rgba(244, 88, 21, 0.4);
+      background: linear-gradient(90deg, rgba(245, 101, 39, 0.26) 19%, rgba(0, 189, 41, 0.247) 57%, rgba(26, 49, 219, 0.224) 100%), url(/imagenes/footer.jpeg);
+      background-blend-mode: normal;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      border-radius: 10px;
+      justify-content: space-around;
+      box-shadow: 3px 0px 50px #9e9c9c; }
+      footer .pie .colum2 .pie__contacto {
+        display: flex;
+        flex-direction: column; }
+        footer .pie .colum2 .pie__contacto .f__c1 p {
+          margin-bottom: 0; }
+      footer .pie .colum2 .pie__titubi p {
+        margin-top: 24px; }
+  /*CATEGORIAS*/
+  .text__cate {
+    padding-block: 1.5rem; } }
+
+@media screen and (max-width: 1144px) {
+  /*INDEX*/
+  header {
+    width: 100%;
+    flex-direction: column; }
+  .sub__ensubtit .donde__index {
+    text-align: center;
+    font-size: 30px; }
+  h1 {
+    font-size: 50px;
+    text-align: center; }
+  h4 {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+  footer {
+    width: 100%;
+    height: 100%;
+    padding: 5px; }
+    footer .pie {
+      text-align: center;
+      font-family: "Varela Round", sans-serif;
+      background: rgba(244, 88, 21, 0.4);
+      background: linear-gradient(90deg, rgba(245, 101, 39, 0.26) 19%, rgba(0, 189, 41, 0.247) 57%, rgba(26, 49, 219, 0.224) 100%), url(/imagenes/footer.jpeg);
+      background-blend-mode: normal;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      border-radius: 10px;
+      justify-content: space-around;
+      box-shadow: 3px 0px 50px #9e9c9c; }
+      footer .pie .colum2 .pie__contacto {
+        display: flex;
+        flex-direction: column; }
+        footer .pie .colum2 .pie__contacto .f__c1 p {
+          margin-bottom: 0; }
+      footer .pie .colum2 .pie__titubi p {
+        margin-top: 24px; }
+  /*CATEGORIAS*/
+  .text__cate {
+    padding-block: 1.5rem; } }
 
 /*ANIMISTA*/
 @keyframes scale-in-center {
