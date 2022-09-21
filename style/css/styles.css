@@ -501,6 +501,12 @@ footer {
             margin-bottom: 0; }
         footer .pie .colum2 .pie__titubi p {
           margin-top: 24px; }
+  /*QUIENES SOMOS*/
+  .row .img__staff {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 2rem;
+    width: 90%; }
   /*CATEGORIAS*/
   .text__cate {
     padding-block: 1.5rem; } }
@@ -551,6 +557,7 @@ footer {
           margin-bottom: 0; }
       footer .pie .colum2 .pie__titubi p {
         margin-top: 24px; }
+  /*QUIENES SOMOS*/
   /*CATEGORIAS*/
   .text__cate {
     padding-block: 1.5rem; } }

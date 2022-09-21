@@ -611,6 +611,15 @@ footer {
       }
     }
   }
+  /*QUIENES SOMOS*/
+  .row {
+    .img__staff {
+      display: flex;
+      margin-left: 20px;
+      margin-top: 2rem;
+      width: 90%;
+    }
+  }
 
   /*CATEGORIAS*/
   .text__cate {
@@ -690,6 +699,7 @@ footer {
       }
     }
   }
+  /*QUIENES SOMOS*/
 
   /*CATEGORIAS*/
   .text__cate {
